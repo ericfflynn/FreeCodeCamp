@@ -1,2 +1,2 @@
-# freeCodeCamp: Responsive Web Design
-This repository is used to store the learning materials from course on freeCodeCamp.com. I would like to have this information stored somewhere where I can easily refer back to it.
+# Free Code Camp: Responsive Web Design
+This repository is used to store the learning materials from the Responsive Web Design course on freeCodeCamp.com. This course covers the fundamentals of html and css for basic web design.
