@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<title>Survey Form</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<h1 id="title">Survey Form</h1>
+<p id="description">This survey is a practice assignment for the Responsive Web Design course on <a href="https://www.freecodecamp.org/">FreeCodeCamp.org</a><p>
+<form id="survey-form">
+<fieldset>
+<label id="name-label">Enter Name <input type="text" id="name" required placeholder="Joe Shmo"/>
+</label>
+<label id="email-label">Enter Email <input type="email" id="email" required placeholder="JoeShmo@gmail.com"/></label>
+<label id="number-label">Enter Age <input type="number" id="number" required min="10" max="100" placeholder="10-100"/>
+</label>
+<label id="choice">Do you prefer pizza or chicken wings?
+<select id="dropdown">
+<option value="">(pick one)</option>
+<option value="1">Pizza</option>
+<option value="2">Chicken Wings</option>
+</select>
+<label>Pick your favorite pizza topping:
+  </label>
+<input type="radio" name="topping-choice" value="peperoni" id="peperoni" class="inline"/>Peperoni 
+  <input type="radio" name="topping-choice" value="meatballs" id="meatballs" />Meatballs
+  <input type="radio" name="topping-choice" value="bacon" id="bacon" />Bacon
+  <input type="radio" name="topping-choice" value="pineapple" id="pineapple" />Pineapple
+</label>
+<label>Please provide any additional comments below
+  <textarea id="comments" rows="3" cols="30" placeholder="Explain your choices..."></textarea>
+  </label>
+  </fieldset>
+  <input type="submit" value="Submit" />
+</form>
+  </body>
+    </html>
